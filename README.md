@@ -5,7 +5,8 @@ Run macOS High Sierra(10.13), Mojave(10.14), Catalina(10.15), Big Sur(11.0) on a
 Most pieces are fully supported, and this setup can be used as your main machine. A few pieces are missing (and some will probably never be supported).
 
 You can use the EFI folder to be to boot into a USB installer, or for regular booting.
-** Hackintosh Acer-Swift3-SF315-52G
+
+# Acer-Swift3-SF315-52G Specs
   - CPU : Intel Core i5-8250U (Kabylake-R)
   - Graphics : Intel UHD 620 (+ MX150)
   - RAM : SK Hynix HMA81GS6CJR8N-VK 8 GB DDR4 2666 MHz (2 slot, maximum upgrade 32GB)
@@ -17,7 +18,8 @@ You can use the EFI folder to be to boot into a USB installer, or for regular bo
   - SD Card Reader : Realtek USB2.0-CRW (ven id:0bda, dev id:0129)
   - Back-lit keyboard
   - Controller (Synaptic): VoodooI2CHID, VoodooI2C + PS2Controller
-** What is working
+
+## What is working
   - Graphics: Intel UHD Graphics 620 (Disable MX150)
   - Audio: Speakers, headphones (Mic don't work)
   - Keyboard: Backlight is ACPI-managed so it works just fine too
@@ -29,7 +31,7 @@ You can use the EFI folder to be to boot into a USB installer, or for regular bo
   - HDMI
   - SD Card Reader
 
-** What is not working
+## What is not working
   - Mic: Doesn't Work
   - GPU: MX150 (No support at all)
   - Fingerprint
